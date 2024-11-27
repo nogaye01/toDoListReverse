@@ -4,7 +4,7 @@ const taskRoutes = require("./routes/tasks");
 const cors = require('cors');
 
 const app = express();
-
+//comment line before merging
 app.use(cors());
 app.use(express.json());
 
